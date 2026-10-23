@@ -18,7 +18,7 @@ O objetivo é simplificar e acelerar o processo de setup de uma nova máquina, g
 1. **Execute o comando abaixo para instalar o script:**
 
    ```sh
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nettaskjr/apps-winget/main/install.bat" -OutFile "install.bat"; Start-Process -FilePath ".\install.bat" -Verb RunAs
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/viciolivre/meu-windows/main/install.bat" -OutFile "install.bat"; Start-Process -FilePath ".\install.bat" -Verb RunAs
    ```
 2. **Responda as perguntas**
 
