@@ -64,7 +64,7 @@ if exist "apps.csv" (
 if "!baixar_apps!"=="1" (
     echo Baixando o arquivo de aplicativos...
     :: Usamos -Command para garantir que o comando seja executado pelo PowerShell e não interpretado pelo CMD.
-    powershell.exe -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/nettaskjr/apps-winget/main/apps.csv' -OutFile 'apps.csv'"
+    powershell.exe -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/viciolivre/meu-windows/main/apps.csv' -OutFile 'apps.csv'"
 ) else (
     echo Mantendo o arquivo existente em: %~dp0apps.csv
 )
